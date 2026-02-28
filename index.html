@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.jpeg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Ávila | Ingeniería Civil & Mantenimiento Industrial</title>
+  <meta name="description"
+    content="Grupo Ávila: Soluciones integrales de ingeniería y construcción. Obras residenciales, excavaciones, hormigón armado, estructuras metálicas y mantenimiento industrial.">
+
+  <!-- Fonts: Montserrat (Headers) & Roboto (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Core JS -->
+  <script type="module" src="./main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <div class="logo">
+        <img src="/assets/logo.jpeg" alt="Logo Grupo Ávila" class="logo-img">
+        <span>GRUPO ÁVILA</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto" class="btn btn-primary">Contacto</a></li>
+      </ul>
+      <div class="mobile-menu-icon" id="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="inicio">
+    <!-- Video de fondo (SICE style). Solo quita los comentarios '< ! - -' y '- - >' cuando tengas tu archivo MP4 en la carpeta assets -->
+    <!-- 
+    <video autoplay loop muted playsinline class="hero-video">
+      <source src="/assets/tu-video-dron.mp4" type="video/mp4">
+    </video> 
+    -->
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="animate-fade-up">Ingeniería Civil & Mantenimiento Industrial</h1>
+      <p class="animate-fade-up delay-1">Construyendo el futuro con eficiencia, calidad y máxima seguridad operativa en
+        cada uno de nuestros proyectos.</p>
+      <div class="hero-actions animate-fade-up delay-2">
+        <a href="#servicios" class="btn btn-primary btn-large">Nuestros Servicios</a>
+        <a href="#nosotros" class="btn btn-secondary btn-large">Conoce Más</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about section" id="nosotros">
+    <div class="container about-grid">
+      <!-- Left side: Image -->
+      <div class="about-image-wrapper animate-fade-up">
+        <div class="about-img-box">
+          <img src="/assets/about-img.png" alt="Ingeniería Civil Grupo Ávila" class="about-image">
+        </div>
+      </div>
+
+      <!-- Right side: Text -->
+      <div class="about-text">
+        <h2 class="animate-fade-up">¿Quiénes Somos?</h2>
+        <div class="divider"></div>
+        <p class="animate-fade-up">Somos una empresa especializada en brindar <strong>soluciones integrales de
+            ingeniería y construcción</strong>.</p>
+        <p class="animate-fade-up">Garantizamos eficiencia, calidad y seguridad operativa en la ejecución de cada
+          proyecto. Nuestro compromiso es materializar cada obra con precisión técnica, optimizando los recursos y
+          garantizando el estricto cumplimiento de los plazos establecidos.</p>
+
+        <div class="about-features animate-fade-up delay-1">
+          <div class="feature-item">
+            <div class="check-icon">✓</div>
+            <div class="feature-text">
+              <h3>Trayectoria en Construcción</h3>
+              <p>Años de experiencia en el sector nos avalan.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="check-icon">✓</div>
+            <div class="feature-text">
+              <h3>Precisión Operativa</h3>
+              <p>Compromiso y exactitud en cada proyecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Separator -->
+  <section class="parallax-separator">
+    <div class="parallax-overlay"></div>
+    <div class="container parallax-content">
+      <h2 class="animate-fade-up">Construimos Bases Sólidas para el Futuro</h2>
+      <p class="animate-fade-up delay-1">Confianza, experiencia y seguridad operativa como pilares fundamentales.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services section" id="servicios">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Nuestros Servicios</h2>
+        <div class="divider center"></div>
+        <p>Conozca las áreas principales en las que nos especializamos y aportamos valor.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Obras Residenciales</h3>
+          <p>Proyectos llave en mano, garantizando comodidad y calidad constructiva de primer nivel desde los cimientos
+            hasta los detalles finales.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Obra Civil</h3>
+          <p>Construcción, gestión y dirección completa de obras civiles. Administramos y ejecutamos su obra de manera
+            integral.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚜</div>
+          <h3>Excavación & Suelo</h3>
+          <p>Servicios de excavación y movimiento de suelo con maquinaria especializada para preparar bases sólidas.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏛️</div>
+          <h3>Hormigón Armado</h3>
+          <p>Ejecución precisa de obras estructurales de hormigón armado, brindando resistencia y perdurabilidad a
+            cualquier estructura.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏗️</div>
+          <h3>Estructuras Metálicas</h3>
+          <p>Fabricación y montaje de estructuras metálicas resistentes para galpones, naves industriales y desarrollos
+            de todo tipo.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Mantenimiento Industrial</h3>
+          <p>Servicio integral, preventivo y correctivo, asegurando la continuidad y optimización de sus operaciones
+            industriales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta section" id="contacto">
+    <div class="container cta-container">
+      <h2>¿Listo para empezar tu próximo proyecto?</h2>
+      <p>Contáctanos hoy para un presupuesto personalizado y asesoramiento experto. Estamos aquí para transformar su
+        visión en realidad.</p>
+      <div class="cta-actions">
+        <a href="https://wa.me/5491126846313" target="_blank" rel="noopener noreferrer"
+          class="btn btn-primary btn-large">
+          <i class="whatsapp-icon">💬</i> Escríbenos al WhatsApp
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniel@avila.com.ar" target="_blank"
+          rel="noopener noreferrer" class="btn btn-secondary btn-large">
+          ✉️ daniel@avila.com.ar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="/assets/logo.jpeg" alt="Logo Grupo Ávila" class="logo-img footer-logo">
+          <span>GRUPO ÁVILA</span>
+        </div>
+        <p>Ingeniería Civil & Mantenimiento Industrial. Soluciones confiables e integrales.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/grupo-avila/" target="_blank" rel="noopener noreferrer"
+            class="social-link">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Enlaces Rápidos</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contacto Directo</h3>
+        <div class="contact-grid">
+          <strong>Email:</strong>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniel@avila.com.ar" target="_blank"
+            rel="noopener noreferrer">daniel@avila.com.ar</a>
+
+          <strong>WhatsApp:</strong>
+          <a href="https://wa.me/5491126846313" target="_blank">+54 9 11 2684 6313</a>
+
+          <strong>Ubicación:</strong>
+          <span>Argentina</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Grupo Ávila. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
